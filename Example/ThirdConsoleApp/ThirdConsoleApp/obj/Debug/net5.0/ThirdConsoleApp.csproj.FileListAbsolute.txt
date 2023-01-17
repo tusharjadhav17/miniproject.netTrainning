@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.exe
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.deps.json
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\bin\Debug\net5.0\ThirdConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\refint\ThirdConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ThirdConsoleApp.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\ThirdConsoleApp\ThirdConsoleApp\obj\Debug\net5.0\ref\ThirdConsoleApp.dll

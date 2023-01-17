@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TrainingDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Auther">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AddedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IPAddress" Type="Int32" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_Book_Auther" FromRole="Auther" ToRole="Book" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AddedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AuthorId" Type="Int64" Nullable="false" />
+    <Property Name="IPAddress" Type="Int32" Nullable="false" />
+    <Property Name="ISBN" Type="Int64" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Publisher" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Auther" Relationship="Self.FK_Book_Auther" FromRole="Book" ToRole="Auther" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompId" />
+    </Key>
+    <Property Name="CompId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompEmail" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompPhone" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Depatment">
+    <Key>
+      <PropertyRef Name="dept_id" />
+    </Key>
+    <Property Name="dept_id" Type="Int64" Nullable="false" />
+    <Property Name="dept_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dept_location" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="emp_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="job_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Salary" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dept_id" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyTestTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int64" />
+    <Property Name="DeptID" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentGrade">
+    <Key>
+      <PropertyRef Name="EnrollmentID" />
+    </Key>
+    <Property Name="EnrollmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityType Name="StudentInfo">
+    <Key>
+      <PropertyRef Name="StudantID" />
+    </Key>
+    <Property Name="StudantID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SDept" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmailID" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudInfo">
+    <Key>
+      <PropertyRef Name="StudID" />
+    </Key>
+    <Property Name="StudID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StudDept" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StudEmail" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StudLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Country" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="min_salary" />
+      <PropertyRef Name="max_salary" />
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="gread" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="min_salary" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="max_salary" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="emp_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <Association Name="FK_Book_Auther">
+    <End Role="Auther" Type="Self.Auther" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Auther">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TrainingDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authers" EntityType="Self.Auther" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+    <EntitySet Name="Depatments" EntityType="Self.Depatment" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="MyTestTables" EntityType="Self.MyTestTable" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="StudentGrades" EntityType="Self.StudentGrade" />
+    <EntitySet Name="StudentInfoes" EntityType="Self.StudentInfo" />
+    <EntitySet Name="StudInfoes" EntityType="Self.StudInfo" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Salaries" EntityType="Self.Salary" />
+    <AssociationSet Name="FK_Book_Auther" Association="Self.FK_Book_Auther">
+      <End Role="Auther" EntitySet="Authers" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+    <FunctionImport Name="Customers_CRUD" ReturnType="Collection(TrainingDBModel.Customers_CRUD_Result)">
+      <Parameter Name="Action" Mode="In" Type="String" />
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getAllAuther" ReturnType="Collection(TrainingDBModel.getAllAuther_Result)" />
+    <FunctionImport Name="getAllEmployee" ReturnType="Collection(TrainingDBModel.getAllEmployee_Result)" />
+    <FunctionImport Name="GetStudentGrades" ReturnType="Collection(TrainingDBModel.GetStudentGrades_Result)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(TrainingDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(TrainingDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="uspGetEmployee" />
+    <FunctionImport Name="uspGetEmployeeist" ReturnType="Collection(TrainingDBModel.uspGetEmployeeist_Result)" />
+    <FunctionImport Name="Customers_PerformCRUD" EntitySet="Customers" ReturnType="Collection(TrainingDBModel.Customer)">
+      <Parameter Name="Action" Mode="In" Type="String" />
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Customers_CRUD_Result">
+    <Property Type="Int32" Name="CustomerId" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Country" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="getAllAuther_Result">
+    <Property Type="Int64" Name="id" Nullable="false" />
+    <Property Type="DateTime" Name="AddedDate" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="512" />
+    <Property Type="Int32" Name="IPAddress" Nullable="false" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getAllEmployee_Result">
+    <Property Type="Int64" Name="emp_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Emp_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="512" />
+    <Property Type="Decimal" Name="Salary" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="String" Name="dept_id" Nullable="false" MaxLength="512" />
+  </ComplexType>
+  <ComplexType Name="GetStudentGrades_Result">
+    <Property Type="Int32" Name="EnrollmentID" Nullable="false" />
+    <Property Type="Decimal" Name="Grade" Nullable="true" Precision="3" Scale="2" />
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="uspGetEmployeeist_Result">
+    <Property Type="Int64" Name="emp_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Emp_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="512" />
+    <Property Type="Decimal" Name="Salary" Nullable="false" Precision="18" Scale="0" />
+  </ComplexType>
+</Schema>

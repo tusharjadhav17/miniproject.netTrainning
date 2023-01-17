@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.exe
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.deps.json
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.dll
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.pdb
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.dll
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\refint\Inheritance.dll
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.pdb
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\Inheritance\Inheritance\obj\Debug\net5.0\ref\Inheritance.dll

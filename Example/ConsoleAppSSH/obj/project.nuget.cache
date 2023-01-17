@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lDj1xjqtj/rYz+xvwKHyRIwZ4w73on3KoRGJFzsf53UpNqXOaakz8rOEGdYkIRGFv/qPYvjmud6P53F61yo0xg==",
+  "success": true,
+  "projectFilePath": "D:\\WorkSpace\\Tushar\\.NET\\Example\\ConsoleAppSSH\\ConsoleAppSSH.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tushar.laxman\\.nuget\\packages\\ssh.net\\2020.0.2\\ssh.net.2020.0.2.nupkg.sha512",
+    "C:\\Users\\tushar.laxman\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache

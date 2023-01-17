@@ -1,0 +1,10 @@
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\bin\Debug\BouncyCastleConsoleApp.exe.config
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\bin\Debug\BouncyCastleConsoleApp.exe
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\bin\Debug\BouncyCastleConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\bin\Debug\BouncyCastle.Crypto.dll
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.csproj.CopyComplete
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.exe
+D:\WorkSpace\Tushar\.NET\Example\BouncyCastleConsoleApp\obj\Debug\BouncyCastleConsoleApp.pdb

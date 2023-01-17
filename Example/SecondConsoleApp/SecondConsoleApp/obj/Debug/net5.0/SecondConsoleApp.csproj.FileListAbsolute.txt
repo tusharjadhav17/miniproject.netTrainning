@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.exe
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.deps.json
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\refint\SecondConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\SecondConsoleApp\SecondConsoleApp\obj\Debug\net5.0\ref\SecondConsoleApp.dll

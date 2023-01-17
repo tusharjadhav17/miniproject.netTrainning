@@ -1,0 +1,13 @@
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\ConsoleAppFramework.exe.config
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\ConsoleAppFramework.exe
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\ConsoleAppFramework.pdb
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\EntityFramework.dll
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\EntityFramework.xml
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.csproj.CopyComplete
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.exe
+D:\WorkSpace\Tushar\.NET\Example\ConsoleAppFramework\obj\Debug\ConsoleAppFramework.pdb

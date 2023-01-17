@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleAppParallelforEachLoop/1.0.0": {
+        "runtime": {
+          "ConsoleAppParallelforEachLoop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppParallelforEachLoop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

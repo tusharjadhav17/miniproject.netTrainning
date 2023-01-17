@@ -1,0 +1,68 @@
+﻿@model IEnumerable<MyWebApp.Models.DLA.Employee>
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddEmployee")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.job_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emp_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dept_id)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.job_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dept_id)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditEmployee", new { id = item.emp_id }) |
+                @Html.ActionLink("Details", "index", new { id = item.emp_id }) |
+                @Html.ActionLink("DeleteConfirmed", "DeleteConfirmed", new { id = item.emp_id })
+            </td>
+        </tr>
+    }
+
+    <div>
+        @Html.ActionLink("Back to Employee List", "Index")
+    </div>
+</table>

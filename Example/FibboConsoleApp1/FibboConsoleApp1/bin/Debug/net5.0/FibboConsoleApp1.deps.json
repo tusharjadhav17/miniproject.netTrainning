@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FibboConsoleApp1/1.0.0": {
+        "runtime": {
+          "FibboConsoleApp1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FibboConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

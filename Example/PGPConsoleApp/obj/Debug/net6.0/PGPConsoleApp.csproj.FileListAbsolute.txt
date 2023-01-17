@@ -1,0 +1,17 @@
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\PGPConsoleApp.exe
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\PGPConsoleApp.deps.json
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\PGPConsoleApp.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\PGPConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\PGPConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.csproj.CopyComplete
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\refint\PGPConsoleApp.dll
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.pdb
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\PGPConsoleApp.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\PGPConsoleApp\obj\Debug\net6.0\ref\PGPConsoleApp.dll

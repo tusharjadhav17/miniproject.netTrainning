@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.exe
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.deps.json
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\bin\Debug\net5.0\FourConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\refint\FourConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\FourConsoleApp1.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\FourConsoleApp1\FourConsoleApp1\obj\Debug\net5.0\ref\FourConsoleApp1.dll

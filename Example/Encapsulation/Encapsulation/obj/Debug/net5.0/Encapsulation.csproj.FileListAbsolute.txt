@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.exe
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.deps.json
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.dll
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\bin\Debug\net5.0\Encapsulation.pdb
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.dll
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\refint\Encapsulation.dll
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.pdb
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\Encapsulation.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\Encapsulation\Encapsulation\obj\Debug\net5.0\ref\Encapsulation.dll

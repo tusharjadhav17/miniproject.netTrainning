@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sGRfM/AWaUMeWlp/VeP9+eodXZtmoJpzqnaLs3av4TU=",
+  "Source": "AuthorizationAndAuthenticationWebApi",
+  "BasePath": "_content/AuthorizationAndAuthenticationWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

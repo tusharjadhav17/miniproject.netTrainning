@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TrainingDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="StudentGrade">
+    <Key>
+      <PropertyRef Name="EnrollmentID" />
+    </Key>
+    <Property Name="EnrollmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityContainer Name="TrainingDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="StudentGrades" EntityType="Self.StudentGrade" />
+    <FunctionImport Name="GetStudentGrades" EntitySet="StudentGrades" ReturnType="Collection(TrainingDBModel.StudentGrade)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(TrainingDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(TrainingDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="uspGetEmployee" />
+    <FunctionImport Name="getAllAuther" ReturnType="Collection(TrainingDBModel.getAllAuther_Result)" />
+    <FunctionImport Name="getAllEmployee" ReturnType="Collection(TrainingDBModel.getAllEmployee_Result)" />
+    <FunctionImport Name="uspGetEmployeeist" ReturnType="Collection(TrainingDBModel.uspGetEmployeeist_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetStudentGrades_Result">
+    <Property Type="Int32" Name="EnrollmentID" Nullable="false" />
+    <Property Type="Decimal" Name="Grade" Nullable="true" Precision="3" Scale="2" />
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="getAllAuther_Result">
+    <Property Type="Int64" Name="id" Nullable="false" />
+    <Property Type="DateTime" Name="AddedDate" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="512" />
+    <Property Type="Int32" Name="IPAddress" Nullable="false" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getAllEmployee_Result">
+    <Property Type="Int64" Name="emp_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Emp_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="512" />
+    <Property Type="Decimal" Name="Salary" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="String" Name="dept_id" Nullable="false" MaxLength="512" />
+  </ComplexType>
+  <ComplexType Name="uspGetEmployeeist_Result">
+    <Property Type="Int64" Name="emp_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Emp_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="512" />
+    <Property Type="Decimal" Name="Salary" Nullable="false" Precision="18" Scale="0" />
+  </ComplexType>
+</Schema>

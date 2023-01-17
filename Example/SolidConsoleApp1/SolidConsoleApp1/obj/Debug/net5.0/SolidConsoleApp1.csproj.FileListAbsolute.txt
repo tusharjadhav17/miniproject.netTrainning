@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.exe
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.deps.json
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\bin\Debug\net5.0\SolidConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\refint\SolidConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\SolidConsoleApp1.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\SolidConsoleApp1\SolidConsoleApp1\obj\Debug\net5.0\ref\SolidConsoleApp1.dll

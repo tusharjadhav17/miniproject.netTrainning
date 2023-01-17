@@ -1,0 +1,16 @@
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.exe
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.deps.json
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.runtimeconfig.json
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.runtimeconfig.dev.json
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\bin\Debug\net5.0\FibboConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.csproj.AssemblyReference.cache
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.AssemblyInfoInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.AssemblyInfo.cs
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\refint\FibboConsoleApp1.dll
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.pdb
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\FibboConsoleApp1.genruntimeconfig.cache
+D:\WorkSpace\Tushar\.NET\Example\FibboConsoleApp1\FibboConsoleApp1\obj\Debug\net5.0\ref\FibboConsoleApp1.dll
